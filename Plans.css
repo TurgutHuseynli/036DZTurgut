@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top, .center{
+    display: flex;
+    justify-content: center;
+}
+.center{
+    margin-top: 30px;
+}
+.add{
+    margin-top: 20px;
+}
+.add_input{
+    width: 300px;
+    height: 30px;
+}
+.add_btn{
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    margin-left: -5px;
+    background: green;
+    color: white;
+    border: none;
+}
+.todo_list{
+    display: block;
+}
+.task{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    margin-top: 10px;
+}
+.tick{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin-right: 10px;
+}
+.task_name{
+    margin-right: 10px;
+}
+.cancel{
+    border: none;
+    background: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
